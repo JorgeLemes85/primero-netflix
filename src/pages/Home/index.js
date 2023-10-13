@@ -9,6 +9,7 @@ const Home = () => {
     ano: 0,
     categoria: null,
   });
+  
 
   const cadastrar = () => {
     setFilmes([filme, ...filmes])
